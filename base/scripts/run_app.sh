@@ -31,6 +31,10 @@ if [[ $REBULD_NPM_MODULES ]]; then
   fi
 fi
 
+# attempt to install imagemagick graphicsmagick
+echo "Installing imagemagick and graphicsmagick..."
+apt-get install -y imagemagick graphicsmagick
+
 # Set a delay to wait to start meteor container
 if [[ $DELAY ]]; then
   echo "Delaying startup for $DELAY seconds"
