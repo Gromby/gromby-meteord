@@ -1,6 +1,6 @@
 set -e
 
-apt-get install -y imagemagick graphicsmagick
+#apt-get install -y imagemagick graphicsmagick
 
 COPIED_APP_PATH=/copied-app
 BUNDLE_DIR=/tmp/bundle-dir
