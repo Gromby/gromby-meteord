@@ -1,4 +1,5 @@
-FROM meteorhacks/meteord:base
+# FROM meteorhacks/meteord:base
+FROM grombydevops/meteord:base
 MAINTAINER MeteorHacks Pvt Ltd.
 
 ONBUILD COPY ./ /app
