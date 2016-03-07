@@ -1,4 +1,15 @@
 #!/bin/bash
 set -e
 apt-get update -y
-apt-get install -y curl bzip2 build-essential python git imagemagick graphicsmagick
+apt-get upgrade -y
+apt-get install -y \
+	build-essential \
+	bzip2 \
+	curl \
+	git \
+	locales \
+	procps \
+	python \
+	imagemagick \
+	graphicsmagick
+
